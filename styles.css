@@ -1,0 +1,135 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*CODIGO PARA EL ENCABEZADO*/
+
+.encabezado {
+    background-color: silver;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 20px 0px 20px;
+    width: 860px;
+}
+
+.encabezado>h1{
+    margin: 0px;
+    padding: 0px;
+    padding: 5px 0px 0px 5px;
+    font-size: 50px;
+}
+
+.encabezado>input{
+    margin: 0px;
+    width: 300px;
+    height: 30px;
+}
+
+.encabezado>button{
+    background-color: rgb(4, 149, 206);
+    color: rgb(255, 255, 255);
+    border: 3px solid black;
+    padding: 5px;
+    box-shadow: 3px 3px 0px 0px rgba(0,0,0,0.99);
+    font-weight: bold;
+    font-size: 15px;
+    height: 30px;
+    align-items: center;
+}
+
+/*CODIGO PARA EL CONTAINER*/
+.container{
+    display: flex;
+}
+
+.colum1{
+    margin: 0px 20px;
+}
+
+.row1, .row2{
+    border: 3px solid black;
+    margin: 20px 0px;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.colum2{
+    border: 3px solid black;
+    margin: 20px 20px;
+}
+
+.titu-ninja {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.clase-gramatical {
+    font-style: italic;
+}
+.numero {
+    margin-top: 10px;
+}
+.bottonverde{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(239, 243, 32);
+    color: rgb(0, 0, 0);
+    border: 3px solid black;
+    padding: 5px;
+    box-shadow: 3px 3px 0px 0px rgba(0,0,0,0.99);
+    font-weight: bold;
+    font-size: 15px;
+    height: 30px;
+}
+
+
+.text-underline{
+    margin: 0px 30px;
+    color: blueviolet;
+    margin: 5px;
+    padding: 0px;
+    text-decoration: underline;
+}
+
+/*CODIGO PARA LA COMULNA DERECHA*/
+
+.colum2{
+    border: 3px solid black;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: left;
+    height: 120px;
+    width: 270px;
+}
+
+.negrita{
+    font-weight: bolder;
+    color: rgb(19, 19, 19);
+    font-size: 30px;
+}
+
+.colum2>div>button{
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: rgb(160, 161, 63);
+    color: rgb(0, 0, 0);
+    border: 3px solid black;
+    padding: 10px;
+    box-shadow: 3px 3px 0px 0px rgba(0,0,0,0.99);
+    font-weight: bold;
+    font-size: 15px;
+    height: 40px;
+    width: 200px;
+    align-items: center;
+}
